@@ -1,0 +1,20 @@
+{
+  "passing": {
+    "yards": 0.04,
+    "td": 6,
+    "interception": -2
+  },
+  "rushing": {
+    "yards": 0.1,
+    "td": 6
+  },
+  "receiving": {
+    "receptions": 1,
+    "yards": 0.1,
+    "td": 6
+  },
+  "misc": {
+    "fumble_lost": -2,
+    "two_point": 2
+  }
+}
