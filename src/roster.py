@@ -5,7 +5,7 @@ from src.preprocess import player_stats
 
 roster = {}
 
-user_roster = input("Enter player name (or 'done' to finish): ")
+user_roster = input("Enter player names from your roster (Use first and last name of the player). \nType 'done' when finished:\nPlayer Name: ")
 
 while user_roster.lower() != "done":
     #find the player's row in the big dataset
@@ -18,8 +18,8 @@ while user_roster.lower() != "done":
         # update roster
         roster[user_roster] = {"position": position}
     else:
-        print(f"Player '{user_roster}' not found in dataset.")
+        print(f"'{user_roster}' not found in dataset.")
 
-    user_roster = input("Enter player name (or 'done' to finish): ")
+    user_roster = input("Player Name (or 'done' to finish): ")
 
 print(roster)
