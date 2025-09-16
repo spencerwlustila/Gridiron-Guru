@@ -21,5 +21,9 @@ while user_roster.lower() != "done":
         print(f"'{user_roster}' not found in dataset.")
 
     user_roster = input("Player Name (or 'done' to finish): ")
+print("Roster collected.")
+print("Roster:")
+for key in roster:
+    print(f"{key}: {roster[key]}")
 
 print(roster)
